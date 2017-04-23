@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFF;
+    color: #222;
+}
+
+img, img.banner {
+    display: none;
+}
+
+header > section > nav > ul > li > a {
+    display: none;
+}
+
+header > section > nav > ul > li > a.selected {
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+    color: #222;
+
+    border-bottom: solid #2b2 2px;
+    border-top: solid #2b2 2px;
+}
+
+header > section > nav, header > section > nav > ul {
+    background-color: transparent;
+}
+
+article {
+    flex-flow: column;
+    width: 100%;
+}
+
+article.midArticle {
+    flex-flow: row;
+}
+
+main > article > section, main > article > section.lower {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main > article > section > p, main > article > section > h1, main > article > section > h2, main > article > section > form,
+article.oefening > section ul, article.oefening > section p, article.oefening > section hr {
+    width: 80%;
+    margin: 16px auto 16px auto;
+}
+
+.button {
+    display: none;
+}

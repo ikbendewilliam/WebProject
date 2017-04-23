@@ -1,0 +1,279 @@
+/* Base */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #DDD;
+    color: #222;
+}
+
+h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2.4rem;
+}
+
+/* Header */
+header, header > section {
+    width: 1600px;
+    font-family: 'PT Sans', sans-serif;
+    margin: 0 auto;
+}
+
+header > section:first-child {
+    background-color: #FFF;
+}
+
+header > section {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+header > section > nav, header > section > nav > ul {
+    width: 100%;
+    background-color: #2B2;
+}
+
+header > section > nav > ul {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+}
+
+header > section > nav > ul > li > a {
+    display: flex;
+    font-size: 2rem;
+    text-decoration: none;
+    justify-content: center;
+    color: #FFF;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 32px;
+}
+
+header > section > nav > ul > li > a.selected {
+    background-color: #7B7;
+}
+
+header > section > nav > ul > li > a:hover {
+    background-color: #5C5;
+}
+
+/* Main */
+main {
+    background-color: #EEE;
+    width: 1600px;
+    margin: 0 auto;
+    min-height: 256px;
+    height: auto;
+}
+
+main > article {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+main > article > section {
+    padding: 40px 4px;
+    display: flex;
+    width: 800px;
+    flex-flow: column;
+    font-size: 2rem;
+}
+
+main > article > section > h1,
+main > article > section > h2 {
+    width: 700px;
+    margin: 0 auto;
+}
+
+main > article > section > p {
+    width: 700px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+/* Form */
+form {
+    margin: 0 auto;
+    width: 700px;
+}
+
+form > input[type=text], form > input[type=email] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+form > textarea {
+    width: 100%;
+    height: 96px;
+    resize: none;
+    padding: 12px;
+    margin: 8px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+}
+
+form > input[type=text]:hover, form > input[type=email]:hover, form > textarea:hover,
+form > input[type=text]:focus, form > input[type=email]:focus, form > textarea:focus {
+    border: #2B2 solid 2px;
+}
+
+textarea:focus {
+    height: 360px;
+}
+
+/* Footer */
+footer {
+    margin: 0 auto;
+    width: 1600px;
+    background-color: #CCC;
+}
+
+footer > p {
+    padding: 5px;
+    font-size: 1.4rem;
+    text-align: right;
+    line-height: 16px;
+}
+
+/* Classes */
+article.oefening {
+    margin: auto;
+    position: relative;
+}
+
+article.oefening > section > h1 {
+    margin-left: 64px;
+}
+
+article.oefening > section > img {
+    width: 640px;
+    height: auto;
+    min-height: 160px;
+    margin-left: 64px;
+}
+
+article.oefening > section p {
+    margin: 4px;
+}
+
+article.oefening > section ul {
+    list-style: none;
+}
+
+article.oefening > section > div.buttons {
+    display: flex;
+    flex-flow: row;
+    margin: 16px 0;
+}
+
+section.lower {
+    margin-top: 48px;
+}
+
+article.midArticle {
+    background-color: #CCC;
+    margin: 16px 0 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+article.midArticle > section {
+    font-size: 1.4rem;
+    width: 512px;
+    margin: 20px auto;
+    padding: 0;
+}
+
+article.midArticle > section > a > h2, article.midArticle > section > a > p {
+    text-align: center;
+    margin: 0 auto;
+    width: 256px;
+}
+
+a.noLinkStyle {
+    text-decoration: none;
+    color: #000;
+}
+
+a.normal {
+    color: #2B2;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button {
+    display: block;
+    background-color: #2B2;
+    color: #FFF;
+    border: none;
+    padding: 4px;
+    font-size: 2rem;
+    width: 256px;
+    margin-right: 16px;
+    margin-top: 16px;
+}
+
+.changing:hover {
+    background-color: #5C5;
+}
+
+.w3org {
+    margin: 0 auto;
+}
+
+.w3org img {
+    border: 0;
+    width: 88px;
+    height: 31px
+}
+
+.hidden {
+    display: none;
+}
+
+.red {
+    color: #F00;
+}
+
+.green {
+    color: #2B2;
+}
+
+.blue {
+    color: #00F;
+}
+
+section.timeBarContainer {
+    width: 95%;
+    height: 64px;
+    margin: 16px auto;
+    border: #22B solid 3px;
+    padding: 0;
+}
+
+/* The actual bar */
+.timeBar {
+    background-color: #22B;
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 60px;
+    height: 60px;
+    margin: 0 auto;
+    overflow-x: visible;
+    overflow-y: hidden;
+}

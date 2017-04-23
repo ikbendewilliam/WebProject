@@ -1,0 +1,57 @@
+header, header > section, main, img.banner, footer {
+    width: 800px;
+}
+
+img.banner {
+    height: 96px; /*Because Chrome decided that height: auto isn't important.... Thanks */
+}
+
+main > article {
+    flex-flow: column;
+    padding: 0;
+}
+
+header > section > nav > ul > li > a {
+    width: 100%;
+    padding: 0 16px;
+}
+
+header > section > nav > ul > li {
+    width: 100%;
+}
+
+img {
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto;
+}
+
+main > article > section, main > article > section.lower {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main > article > section > p, main > article > section > h1, main > article > section > h2, main > article > section > form,
+article.oefening > section ul, article.oefening > section p, article.oefening > section hr {
+    width: 80%;
+    margin: 16px auto 16px auto;
+}
+
+article.oefening > section div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+article.oefening > section > div.buttons {
+    margin-left: 64px;
+}
+
+.buttons {
+    width: 160px;
+}
+
+.timeBar {
+    text-align: left;
+    margin-left: 0;
+}

@@ -1,0 +1,14 @@
+/* Dit bestand mag NIET gewijzigd worden */
+@font-face {
+    font-family: 'AlternateGotNo3D';
+    src: url(../assets/fonts/AlternateGotNo3D/AlternateGotNo3D.eot?#iefix) format("embedded-opentype"), url(../assets/fonts/AlternateGotNo3D/AlternateGotNo3D.woff) format("woff"), url(../assets/fonts/AlternateGotNo3D/AlternateGotNo3D.ttf) format("truetype"), url(../assets/fonts/AlternateGotNo3D/AlternateGotNo3D.svg#AlternateGotNo3D) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GothamLight';
+    src: url(../assets/fonts/GothamLight/GothamLight.eot?#iefix) format("embedded-opentype"), url(../assets/fonts/GothamLight/GothamLight.woff) format("woff"), url(../assets/fonts/GothamLight/GothamLight.ttf) format("truetype"), url(../assets/fonts/GothamLight/GothamLight.svg#GothamLight) format("svg");
+    font-weight: 400;
+    font-style: normal
+}

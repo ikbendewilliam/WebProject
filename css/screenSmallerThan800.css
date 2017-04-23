@@ -1,0 +1,53 @@
+header, header > section, main, img.banner, footer {
+    width: 480px;
+}
+
+img.banner {
+    height: 57px; /*Because Chrome decided that height: auto isn't important.... Thanks */
+}
+
+header > section > nav {
+    min-height: 48px;
+}
+
+header > section > nav > ul {
+    flex-flow: column;
+}
+
+header > section > nav > ul > li > a {
+    display: none;
+}
+
+header > section > nav:hover > ul > li > a {
+    display: flex;
+}
+
+header > section > nav > ul > li > a.selected {
+    display: flex;
+}
+
+img {
+    max-width: 480px;
+    height: auto;
+    margin: 0;
+}
+
+article.oefening > section > img {
+    margin: 0;
+}
+
+article.oefening > section > div.buttons {
+    flex-flow: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+article.oefening > section .button {
+    width: 80%;
+    margin: 8px auto;
+}
+
+article.midArticle {
+    margin-top: 0;
+}

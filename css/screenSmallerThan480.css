@@ -1,0 +1,16 @@
+header, header > section, main, img.banner, footer {
+    width: 360px;
+}
+
+img.banner {
+    height: 43px; /*Because Chrome decided that height: auto isn't important.... Thanks */
+}
+
+img {
+    max-width: 360px;
+}
+
+article.midArticle, article.midArticle > section{
+    margin: 0;
+    width: 360px;
+}
